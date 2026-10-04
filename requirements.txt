@@ -1,0 +1,9 @@
+streamlit==1.65.0
+transformers==5.18.0
+huggingface_hub==1.33.0
+pandas==3.0.6
+truststore==0.10.4
+# The PyPI torch wheel for Windows is CPU-only. For an NVIDIA GPU, install the
+# CUDA build first, e.g.:
+#   pip install torch==2.14.0 --index-url https://download.pytorch.org/whl/cu126
+torch==2.14.0
